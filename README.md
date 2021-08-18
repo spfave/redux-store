@@ -16,7 +16,7 @@
 
 &nbsp;
 ## **Description**
-
+This ecommerce store application was provided as a functioning full stack MERN application using the React context API to manage state at the global level. This app was refactored to replace use of the [context API](https://reactjs.org/docs/context.html) for global state management with [Redux](https://redux.js.org/) using the redux and react-redux npm packages. 
 
 The web application is hosted on Heroku for demonstration. 
 
@@ -24,17 +24,17 @@ The web application is hosted on Heroku for demonstration.
 &nbsp;
 ## **[Live Application](https://spf-redux-store.herokuapp.com/)**
 ## **Application Screenshots and Demo**
-<!-- ![](./assets/img/)
-![](./assets/img/)
-![](./assets/img/)
-![](./assets/img/) -->
+![Store front app](./assets/img/store-front.png)
+![Store adding and removing cart items and filtering categories](./assets/img/store-addtocart-filter.gif)
+![Store item details view page](./assets/img/store-item-detail.gif)
+![Checkout from store to stripe API](./assets/img/store-checkout.gif)
 
 
 &nbsp;
 ## **Technologies and Services**
 Development Technologies
 - Database/Models: MongoDB, Mongoose (ODM)
-- Client: React, Redux, Apollo Client
+- Client: React, Redux, Apollo Client, Stripe API
 - Server/APIs: Node.js, Express.js, GraphQL (Apollo Server)
 
 External Frameworks, Services, and Credits
